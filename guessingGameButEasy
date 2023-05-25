@@ -1,0 +1,10 @@
+def guess_number():
+    number = 5
+    guess = int(input("Rate eine Zahl zwischen 1 und 10: "))
+
+    if guess == number:
+        print("Richtig!")
+    else:
+        print("Falsch!")
+
+guess_number()
